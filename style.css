@@ -1,3 +1,4 @@
+
 :root {
     --green-color: #1a5126;
     --backgr-color: #f3e9dc;
@@ -6,11 +7,20 @@
     --hover: rgb(212, 230, 132);
 }
 
+.vintage {
+    --green-color: #7a3e3e;   
+    --backgr-color: #e5e0d8;   
+    --light-green: #9a8c8150;    
+    --first-bc: #a65d50;     
+    --hover: #d7b49e;
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;   
 }
 
 body {
@@ -60,12 +70,18 @@ header {
     padding: 25px;
     box-shadow: 1px 1px 15px 1px rgb(0,0,0.1);
     border-radius: 5px;
+    width: 370px;
     z-index: 1111;
 }
 
 a {
-    font-size: x-large;
+    font-size: 25px;
     color: white;
+}
+
+a:hover {
+    font-size: 30px;
+    color: var(--hover);
 }
 
 .show {
@@ -294,12 +310,17 @@ aside h3 {
     box-shadow: 1px 1px 15px 1px rgb(0,0,0.1);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     padding: 10px;
     text-align: center;
     gap: 5px;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.4s;
+}
+
+#section_4 div img {
+    width: 40px;
+    height: auto;
 }
 
 #section_4 div:hover {
