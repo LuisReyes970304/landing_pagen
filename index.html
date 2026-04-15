@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,9 @@
 </head>
 <body>
     <header>
-        <h2>EcoBarranquilla</h2>
+        <h1>EcoBarranquilla</h1>
         <div class="options">
-            <button class="burger">≡</button>
+            <button class="burger" aria-label="Abrir menú">≡</button>
             <nav class="burger_nav">
                 <ul>
                     <li><a href="#first">Jardin Botánico</a></li>
@@ -20,121 +20,134 @@
             </nav>
         </div>
     </header>
-    <div class="main_picture">
-        <h1>Explora La Belleza Natural de Barranquilla</h1>
-        <p>
-            Descubre por qué los puntos verdes, parques y áreas naturales son tan    importantes para la ciudad de Barranquilla. <br> 
-            Sumérgete en la biodiversidad única que ofrecen estos espacios. <br> Disfruta de la conexión con la naturaleza en tu vida diaria.
-        </p>
-    </div>
-    <div id="first" style="width: 100%; height: 70px;"></div>
-    <section id="section_1">
-        <aside>
-            <section>
-                <h3>Jardin Botánico de Barranquilla</h3>
-                <p class="jardin">
-                    Este rincón es un auténtico refugio de paz que brota con fuerza en medio del asfalto, un santuario donde el ritmo acelerado de la ciudad se detiene para permitir que la naturaleza respire profundamente. Es el escenario perfecto para quienes anhelan escapar del ruido cotidiano y perderse en un abrazo verde, caminando bajo la sombra de árboles centenarios que susurran historias antiguas.
-                </p>
-            </section>
-            <div class="jardin_map">
-                <div class="title"> 
-                    <img src="images/icon.png" alt=""> <h4>Location</h4>
+
+    <main>
+        <div class="line"></div> 
+
+        <div class="main_picture">
+            <h2>Explora La Belleza Natural de Barranquilla</h2>
+            <p>
+                Descubre por qué los puntos verdes, parques y áreas naturales son tan importantes para la ciudad de Barranquilla. <br> 
+                Sumérgete en la biodiversidad única que ofrecen estos espacios. <br> 
+                Disfruta de la conexión con la naturaleza en tu vida diaria.
+            </p>
+        </div>
+
+        <!-- Section 1: Jardín Botánico -->
+        <div id="first"></div>
+        <section id="section_1">
+            <aside>
+                <article>
+                    <h3>Jardin Botánico de Barranquilla</h3>
+                    <p class="jardin">
+                        Este rincón es un auténtico refugio de paz que brota con fuerza en medio del asfalto, un santuario donde el ritmo acelerado de la ciudad se detiene para permitir que la naturaleza respire profundamente. Es el escenario perfecto para quienes anhelan escapar del ruido cotidiano y perderse en un abrazo verde, caminando bajo la sombra de árboles centenarios que susurran historias antiguas.
+                    </p>
+                </article>
+                <div class="jardin_map">
+                    <div class="title"> 
+                        <img src="images/icon.png" alt="Icono de ubicación"> 
+                        <h4>Location</h4>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58313.37320359998!2d-74.8318283208985!3d10.951253699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5d2b3fad799d1%3A0xaa578b39238ba170!2sJard%C3%ADn%20Bot%C3%A1nico%20ARMANDO%20DUGAND%20GNECCO!5e0!3m2!1ses-419!2sco!4v1775736909595!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa Jardín Botánico"></iframe>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58313.37320359998!2d-74.8318283208985!3d10.951253699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5d2b3fad799d1%3A0xaa578b39238ba170!2sJard%C3%ADn%20Bot%C3%A1nico%20ARMANDO%20DUGAND%20GNECCO!5e0!3m2!1ses-419!2sco!4v1775736909595!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </aside>
-        <main>
-            <img src="images/jardin_botanico_2.png" alt="" class="img_1" >
-            <div class="bellow">
-                <img src="images/parque-jardin-botanico-3.jpg" alt="" class="img_2">
-                <img src="images/garden.png" alt="" class="img_3">
-            </div>
-        </main>
-    </section>
-    <div id="second" style="width: 100%; height: 70px;"></div>
-    <section id="section_2">
-        <aside>
-            <section>
-                <h3>Ciénaga de Mallorquín</h3>
-                <p class="jardin">
-                    Es un suspiro de agua entre la ciudad y el mar, donde el viento acaricia los manglares y el sol se disuelve en tonos dorados al caer la tarde, mientras las aves trazan caminos invisibles en el cielo y la brisa arrastra historias antiguas que parecen quedarse suspendidas en el tiempo, creando un rincón donde todo se mueve lento y la naturaleza respira con calma.
-                </p>
-            </section>
-            <div class="jardin_map">
-                <div class="title"> 
-                    <img src="images/icon.png" alt=""> <h4>Location</h4>
+            </aside>
+            <div class="gallery">
+                <img src="images/jardin_botanico_2.png" alt="Vista del Jardín Botánico" class="img_1">
+                <div class="bellow">
+                    <img src="images/parque-jardin-botanico-3.jpg" alt="Senderos del parque" class="img_2">
+                    <img src="images/garden.png" alt="Flores del jardín" class="img_3">
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15663.585870423782!2d-74.85974374838409!3d11.0463886259065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42c200a625451%3A0x3e9b84c1ac5f65e5!2sCi%C3%A9naga%20de%20Mallorqu%C3%ADn!5e0!3m2!1sen!2sco!4v1775756194929!5m2!1sen!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </aside>
-        <main>
-            <img src="images/cienaga.png" alt="" class="img_1" >
-            <div class="bellow">
-                <img src="images/cienaga_2.png" alt="" class="img_2">
-                <img src="images/cienaga_3.png" alt="" class="img_3">
+        </section>
+
+        <!-- Section 2: Ciénaga -->
+        <div id="second"></div>
+        <section id="section_2">
+            <aside>
+                <article>
+                    <h3>Ciénaga de Mallorquín</h3>
+                    <p class="jardin">
+                        Es un suspiro de agua entre la ciudad y el mar, donde el viento acaricia los manglares y el sol se disuelve en tonos dorados al caer la tarde, mientras las aves trazan caminos invisibles en el cielo y la brisa arrastra historias antiguas que parecen quedarse suspendidas en el tiempo, creando un rincón donde todo se mueve lento y la naturaleza respira con calma.
+                    </p>
+                </article>
+                <div class="jardin_map">
+                    <div class="title"> 
+                        <img src="images/icon.png" alt="Icono de ubicación"> 
+                        <h4>Location</h4>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15663.585870423782!2d-74.85974374838409!3d11.0463886259065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42c200a625451%3A0x3e9b84c1ac5f65e5!2sCi%C3%A9naga%20de%20Mallorqu%C3%ADn!5e0!3m2!1sen!2sco!4v1775756194929!5m2!1sen!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa Ciénaga de Mallorquín"></iframe>
+                </div>
+            </aside>
+            <div class="gallery">
+                <img src="images/cienaga.png" alt="Vista aérea de la ciénaga" class="img_1">
+                <div class="bellow">
+                    <img src="images/cienaga_2.png" alt="Manglares" class="img_2">
+                    <img src="images/cienaga_3.png" alt="Atardecer en la ciénaga" class="img_3">
+                </div>
             </div>
-        </main>
-    </section>
-    <div id="third" style="width: 100%; height: 70px;"></div>
-    <section id="section_3">
-        <h3>Normas De Ecología</h3>
-        <p>
-            La ecología no es solo una ciencia que estudia a los seres vivos y su ambiente, sino un estilo de vida que busca el equilibrio entre nuestras necesidades y la salud del planeta. Adoptar normas ecológicas es fundamental para frenar el deterioro ambiental y asegurar un futuro habitable.
-        </p>
-    </section>
-    <section id="section_4">
-        <div>
-            <img src="images/recycling_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png">
-            <h3>Reducción, reutilización y reciclaje</h3>
-            <p>La regla de las "3R" para disminuir la generación de residuos.</p>
-        </div>
-        <div>
-            <img src="images/battery_android_6_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png">
-            <h3>Ahorro y eficiencia energética</h3>
-            <p>Apagar luces innecesarias y desconectar aparatos eléctricos que no se usen.</p>
-        </div>
-        <div>
-            <img src="images/water_drops_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png">
-            <h3>Gestión responsable del agua</h3>
-            <p>Cerrar grifos, reparar fugas y evitar el desperdicio de este recurso vital.</p>
-        </div>
-        <div>
-            <img src="images/co2_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png">
-            <h3>Movilidad sostenible</h3>
-            <p>Priorizar el uso de transporte público, bicicleta o caminar para reducir emisiones de CO2.</p>
-        </div>
-        <div>
-            <img src="images/sticky_note_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png">
-            <h3>Consumo de productos locales y ecológicos</h3>
-            <p> Apoyar el comercio de proximidad y productos de temporada para reducir la huella de carbono.</p>
-        </div>
-        <div>
-            <img src="images/takeout_dining_2_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png">
-            <h3>Uso de bolsas y envases reutilizables</h3>
-            <p>Evitar los plásticos de un solo uso llevando tus propias bolsas al supermercado.</p>
-        </div>
-        <div>
-            <img src="images/genetics_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png">
-            <h3>Protección de la biodiversidad</h3>
-            <p>Respetar los ecosistemas, plantar árboles y evitar dañar la flora y fauna silvestre.</p>
-        </div>
-        <div>
-            <img src="images/delete_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png">
-            <h3>Control de emisiones y vertimientos</h3>
-            <p>No arrojar sustancias contaminantes al suelo o cuerpos de agua sin tratamiento previo.</p>
-        </div>
-        <div>
-            <img src="images/auto_stories_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png">
-            <h3>Educación y sensibilización</h3>
-            <p>Fomentar la conciencia ambiental en la comunidad para garantizar la sostenibilidad futura.</p>
-        </div>
-    </section>
+        </section>
+
+        <!-- Section 3 & 4: Normas -->
+        <div id="third"></div>
+        <section id="section_3">
+            <h3>Normas De Ecología</h3>
+            <p>
+                La ecología no es solo una ciencia... Adoptar normas ecológicas es fundamental para asegurar un futuro habitable.
+            </p>
+        </section>
+
+        <section id="section_4">
+            <article>
+                <img src="images/recycling_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png" alt="Icono Reciclaje">
+                <h3>Reducción, reutilización y reciclaje</h3>
+                <p>La regla de las "3R" para disminuir la generación de residuos.</p>
+            </article>
+            <article>
+                <img src="images/battery_android_6_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png" alt="Icono Energía">
+                <h3>Ahorro y eficiencia energética</h3>
+                <p>Apagar luces innecesarias y desconectar aparatos eléctricos.</p>
+            </article>
+            <article>
+                <img src="images/water_drops_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png" alt="Icono Agua">
+                <h3>Gestión responsable del agua</h3>
+                <p>Cerrar grifos, reparar fugas y evitar el desperdicio.</p>
+            </article>
+            <article>
+                <img src="images/co2_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png" alt="Icono CO2">
+                <h3>Movilidad sostenible</h3>
+                <p>Priorizar el uso de transporte público, bicicleta o caminar.</p>
+            </article>
+            <article>
+                <img src="images/sticky_note_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png" alt="Icono Productos locales">
+                <h3>Consumo de productos locales</h3>
+                <p>Apoyar el comercio de proximidad para reducir la huella de carbono.</p>
+            </article>
+            <article>
+                <img src="images/takeout_dining_2_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png" alt="Icono Envases">
+                <h3>Uso de bolsas reutilizables</h3>
+                <p>Evitar los plásticos de un solo uso llevando tus propias bolsas.</p>
+            </article>
+            <article>
+                <img src="images/genetics_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png" alt="Icono Biodiversidad">
+                <h3>Protección de la biodiversidad</h3>
+                <p>Respetar los ecosistemas y evitar dañar la flora y fauna silvestre.</p>
+            </article>
+            <article>
+                <img src="images/delete_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png" alt="Icono Vertimientos">
+                <h3>Control de emisiones</h3>
+                <p>No arrojar sustancias contaminantes al suelo o cuerpos de agua.</p>
+            </article>
+            <article>
+                <img src="images/auto_stories_35dp_GREEN_FILL0_wght400_GRAD0_opsz40.png" alt="Icono Educación">
+                <h3>Educación y sensibilización</h3>
+                <p>Fomentar la conciencia ambiental en la comunidad.</p>
+            </article>
+        </section>
+    </main>
+
     <footer>
-        <h3>2026. RIWI Todos los derechos reservados</h3>
+        <p>&copy; 2026. RIWI Todos los derechos reservados</p>
     </footer>
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
