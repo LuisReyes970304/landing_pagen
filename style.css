@@ -177,7 +177,6 @@ aside {
     padding: 10px;
     margin-left: 25px;
     overflow-y: auto;
-    scrollbar-width: none;
 }
 
 /************* This is the section main **************/
@@ -301,6 +300,26 @@ aside h3 {
     box-shadow: 1px 1px 30px 15px var(--light-green);
 }
 
+.capa_arriba {
+    width: 100%; 
+    height: 300px; 
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.capa_arriba img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+.capa_arriba iframe {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
 
 
 /****************** This is the last section 4 loyout********************/
