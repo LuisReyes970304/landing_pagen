@@ -6,14 +6,6 @@
     --hover: rgb(212, 230, 132);
 }
 
-.vintage {
-    --green-color: #7a3e3e;   
-    --backgr-color: #e5e0d8;   
-    --light-green: #9a8c8150;    
-    --first-bc: #a65d50;     
-    --hover: #d7b49e;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -123,6 +115,11 @@ a:hover {
     box-shadow: 1px 1px 15px 5px rgb(0,0,0.1);
 }
 
+.main_picture h2:hover,
+.main_picture p:hover {
+    background-color: var(--light-green);
+}
+
 .main_picture p {
     display: flex;
     align-items: center;
@@ -228,7 +225,8 @@ aside h3 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 15px
+    gap: 15px;
+    margin-bottom: 40px;
 }
 
 .jardin_map .title {
